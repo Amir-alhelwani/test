@@ -1,0 +1,17 @@
+{
+  "assignment": {
+    "create": "Create New Assignment",
+    "title": "title:",
+    "subtitle": "subtitle:",
+    "course": "select the course",
+    "files": "the files",
+    "add-file": "add new file",
+    "photo": "Assignment Photo:",
+    "upload": "Upload Your Image",
+    "delete": "delete",
+    "settings":"Assignment Settings",
+    "conditions":"Assignment conditions",
+    "save":"save",
+    "view": "View As Student"
+  }
+}

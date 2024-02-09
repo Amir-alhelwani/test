@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --sidebar-width: 225px;
+    --nav-height: 60px;
+  }
+}
+
+.bg-image {
+  @apply isolate before:absolute before:inset-0
+          before:-z-[1];
+}
+
+.image::before {
+  background: url("/bg.jpg") center/cover no-repeat;
+  opacity: 0.1;
+}
